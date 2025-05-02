@@ -144,10 +144,13 @@ a:focus {
   border: 1px solid var(--secondary-color);
   border-radius: 10px;
   padding: 10px 20px;
-  margin-right: 25px;
-  width: auto;
   background: var(--background);
   box-shadow: var(--box-shadow);
+
+  /* → nouvelles lignes : */
+  width: 90%;            /* occupe 90% de l’écran */
+  max-width: 800px;      /* ne dépasse pas 800px */
+  margin: 0 auto 2rem;   /* centre horizontalement et espace en bas */
 }
 
 img {
