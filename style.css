@@ -67,7 +67,7 @@ nav {
   letter-spacing: 3px;
   padding: 15px 0;
   width: 100%;
-  background: #6c63ff; /* Couleur de fond violette */
+  background: var(--secondary-color);  /* adopte la même couleur cyan que tes bordures */
   transition: height 0.3s; /* Transition pour l'animation */
   text-align: center;
 }
